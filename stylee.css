@@ -1,0 +1,21 @@
+.list-group{
+    display: flex;
+    align-items: center;
+}
+.list-group-item{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 15px;
+    width: 50%;
+}
+.list-group-item:hover{
+    background-color:#e7f5e7;
+}
+.completed{
+    text-decoration: line-through;
+    color: #aaa;
+}

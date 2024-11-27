@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(25, 135, 84) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+label{
+    display: block;
+}
+form{
+    width: 450px;
+    border-radius: 5px;
+}
+.error{
+    color: red;
+}
+.input-container{
+    position:relative;
+}
+#icon{
+    position: absolute;
+    right:5px;
+    top:5px
+}
+#icon-confirmpassword{
+    position: absolute;
+    right:5px;
+    top:5px
+}
